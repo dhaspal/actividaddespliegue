@@ -1,0 +1,2 @@
+sudo visudo
+david ALL=(ALL) NOPASSWD: /usr/sbin/service, /bin/chown, /bin/chmod
