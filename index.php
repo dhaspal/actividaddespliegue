@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </div>
 
 <div class="card">
-  <h2> pase pues <span class="badge">laboratorio_db</span></h2>
+  <h2> pase pues ome <span class="badge">laboratorio_db</span></h2>
   <table>
     <thead>
       <tr><th>#</th><th>Nombre</th><th>Correo</th><th>Mensaje</th><th>Fecha</th></tr>
