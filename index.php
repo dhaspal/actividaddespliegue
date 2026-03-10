@@ -32,7 +32,7 @@
 </head>
 <body>
 
-<h1>🖥️ Laboratorio Linux</h1>
+<h1>Laboratorio Linux</h1>
 <p class="sub">WSL + NGINX + PHP 8.3 + MySQL — Despliegue local</p>
 
 <?php
@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 
 <div class="card">
-  <h2>📝 Nuevo Registro</h2>
+  <h2>📝 Nuevo Registro PARA TODO</h2>
   <?= $mensaje_estado ?>
   <form method="POST">
     <input type="text"  name="nombre"  placeholder="Nombre completo" required>
