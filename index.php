@@ -32,7 +32,7 @@
 </head>
 <body>
 
-<h1>🖥️ Laboratorio Linux</h1>
+<h1>🖥️ Laboratorio Linux HOLITA</h1>
 <p class="sub">WSL + NGINX + PHP 8.3 + MySQL — Despliegue local</p>
 
 <?php
