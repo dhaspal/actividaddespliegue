@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 
 <div class="card">
-  <h2>📝 Nuevo Registro PARA TODO</h2>
+  <h2>Nuevo Registro PARA TODO</h2>
   <?= $mensaje_estado ?>
   <form method="POST">
     <input type="text"  name="nombre"  placeholder="Nombre completo" required>
