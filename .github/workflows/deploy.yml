@@ -16,13 +16,12 @@ jobs:
 
       - name: Copiar archivos al servidor
         run: |
-          cp -r $GITHUB_WORKSPACE/* /var/www/html/app/
-          rm -rf /var/www/html/app/.github
+          rsync -av --exclude='.github' $GITHUB_WORKSPACE/ /var/www/html/app/
 
       - name: Recargar NGINX
         run: sudo service nginx reload
 
       - name: Verificar permisos
         run: |
-          sudo chown -R www-data:www-data /var/www/html/app/
+          sudo chown -R david:david /var/www/html/app/
           sudo chmod -R 755 /var/www/html/app/
