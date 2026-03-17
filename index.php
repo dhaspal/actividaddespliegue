@@ -66,7 +66,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <<<<<<< Updated upstream
   <h2> PRUEBA FINAL ALEJO NO PELEA POR LA MUJER<span class="badge">laboratorio_db</span></h2>
 =======
-  <h2> PRUEBA FINAL DEL REGISTRO PORFAVOR alejo no puede terminar<span class="badge">laboratorio_db</span></h2>
+  <h2> PRUEBA FINAL DEL REGISTRO PORFAVOR alejo no puede terminar con la mujer porque me romperia el corazon<span class="badge">laboratorio_db</span></h2>
 >>>>>>> Stashed changes
   <table>
     <thead>
