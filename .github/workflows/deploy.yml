@@ -16,4 +16,4 @@ jobs:
 
       - name: Copiar archivos al servidor
         run: |
-          rsync -av --delete ./ /var/www/html/app/
+          rsync -av --delete --exclude='.git' --exclude='.github' ./ /var/www/html/app/
