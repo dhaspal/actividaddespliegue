@@ -63,7 +63,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </div>
 
 <div class="card">
+<<<<<<< Updated upstream
   <h2> PRUEBA FINAL ALEJO NO PELEA POR LA MUJER<span class="badge">laboratorio_db</span></h2>
+=======
+  <h2> PRUEBA FINAL DEL REGISTRO PORFAVOR alejo no puede terminar<span class="badge">laboratorio_db</span></h2>
+>>>>>>> Stashed changes
   <table>
     <thead>
       <tr><th>#</th><th>Nombre</th><th>Correo</th><th>Mensaje</th><th>Fecha</th></tr>
