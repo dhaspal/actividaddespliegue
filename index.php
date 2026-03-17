@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </div>
 
 <div class="card">
-  <h2> PRUEBA FINAL DEL REGISTRO PORFAVOR<span class="badge">laboratorio_db</span></h2>
+  <h2> PRUEBA FINAL ALEJO NO PELEA POR LA MUJER<span class="badge">laboratorio_db</span></h2>
   <table>
     <thead>
       <tr><th>#</th><th>Nombre</th><th>Correo</th><th>Mensaje</th><th>Fecha</th></tr>
