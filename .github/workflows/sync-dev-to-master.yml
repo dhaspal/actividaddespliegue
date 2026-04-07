@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   create-pr-and-merge:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Create or reuse PR from dev to master
         id: create_pr
